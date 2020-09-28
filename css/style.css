@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+body{
+    background: rgb(194, 246, 247);
+}
+.container{
+
+    background: rgb(88, 52, 218);
+    
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: minmax(50px,auto)  minmax(120px,auto) minmax(380px,auto);
+    gap: 10px 2em;
+    
+}
+.logo{
+    background: #000;
+    grid-column: 4 / 10;
+    grid-row:    1 / 2;
+}
+.title{
+    background: rgb(187, 54, 54);
+    grid-column: 3/11;
+}
+.form{
+    background: rgb(33, 190, 67);
+    grid-column: 3/11 ;
+    grid-row: 3;
+}
