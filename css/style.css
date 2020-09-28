@@ -24,7 +24,7 @@ body{
 }
 .title{
     background: rgb(187, 54, 54);
-    grid-column: 3/11;
+    grid-column: 2/12;
 }
 .form{
     background: rgb(33, 190, 67);
