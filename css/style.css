@@ -10,7 +10,7 @@ body{
 
     background: rgb(26, 141, 112);
     
-    margin: 15px auto;
+    margin: 10px auto;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: 50px  120px 380px;
