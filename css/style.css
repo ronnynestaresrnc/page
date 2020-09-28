@@ -8,12 +8,12 @@ body{
 }
 .container{
 
-    background: rgb(88, 52, 218);
+    background: rgb(26, 141, 112);
     
     margin: 15px auto;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: minmax(50px,auto)  minmax(120px,auto) minmax(380px,auto);
+    grid-template-rows: 50px  120px 380px;
     gap: 10px 2em;
     
 }
