@@ -28,6 +28,6 @@ body{
 }
 .form{
     background: rgb(33, 190, 67);
-    grid-column: 2/12 ;
+    grid-column: span 12 ;
     grid-row: 3;
 }
